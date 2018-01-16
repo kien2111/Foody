@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_parent_what2do_tab_menu"
+    style="@style/view_match"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        style="@style/bottom_bar"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#55aaaaaa" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/mytransparent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="3.0dip">
+
+                <TextView
+
+                    style="@style/style_textView_tab_menu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:text="Xem gần đây"
+                    android:textColor="@color/home_filter_text_color"
+                    android:textSize="12.0sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="3.0dip">
+
+                <TextView
+                    android:id="@+id/text_view_what2do_tab_menu_2"
+                    style="@style/style_textView_tab_menu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:text="Đã tìm"
+                    android:textColor="@color/home_filter_text_color"
+                    android:textSize="12.0sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

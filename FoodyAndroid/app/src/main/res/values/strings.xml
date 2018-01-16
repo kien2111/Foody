@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Foody</string>
+    <string-array name="actionBarTabs">
+        <item>tab1</item>
+        <item>tab2</item>
+        <item>tab3</item>
+    </string-array>
+    <string-array name="gioitinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+    <string-array name="honnhan">
+        <item>Độc thân</item>
+        <item>Đã cưới</item>
+        <item>Phức tạp</item>
+        <item>Đang hẹn hò</item>
+        <item>Đã đính hôn</item>
+        <item>Quan hệ mở</item>
+        <item>Góa</item>
+        <item>Ly dị</item>
+        <item>Ly thân</item>
+    </string-array>
+    <string name="text_home">home</string>
+    <string name="text_notifications">notification</string>
+    <string name="text_search">search</string>
+    <string name="text_collection">collection</string>
+    <string name="text_user">user</string>
+    <string name="action_favorite">favorite</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="TEXT_CHANGE_CITY">Đổi tỉnh thành</string>
+    <string name="TEXT_STREET">Đường</string>
+    <string name="TITLE_CHOOSE_PROVINCE">Chọn Tỉnh/Thành phố</string>
+    <string name="TEXT_ACTION_DONE">Xong</string>
+    <string name="ACTION_QUICKSEARCH">Tìm nhanh</string>
+    <string name="ACTION_AUTODETECT_LOCATION">Tự động xác định vị trí</string>
+    <string name="ACTION_CHANGE_COUNTRY">Đổi quốc gia</string>
+    <string name="ACTION_DEFAULT">Mặc định</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

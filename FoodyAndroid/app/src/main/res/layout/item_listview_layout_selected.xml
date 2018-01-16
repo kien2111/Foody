@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgitem"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtitem"
+        android:layout_height="30dip"
+        android:layout_width="0dip"
+        android:layout_weight="2"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:textSize="17sp" />
+    <Button
+        android:text="Mặc định"
+        android:textSize="10sp"
+        android:textColor="@color/dark_blue"
+        android:layout_width="75dip"
+        android:padding="1dip"
+        android:layout_margin="3dip"
+        android:layout_height="30dip" />
+
+</LinearLayout>

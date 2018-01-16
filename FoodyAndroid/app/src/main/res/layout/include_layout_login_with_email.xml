@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginLeft="70dp"
+    android:layout_marginRight="70dp">
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@drawable/apptheme_edit_text_holo_light"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:id="@+id/username"
+        android:hint="Tài khoản" />
+    <EditText
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/apptheme_edit_text_holo_light"
+        android:id="@+id/password"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="text|textPassword"/>
+
+
+    <Button
+        android:id="@+id/login_email_btn"
+        android:layout_margin="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@color/transparentforbtn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:textColor="@color/white"
+        android:text="Quên mật khẩu"
+        android:textAlignment="center"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_size_point">3dp</dimen>
+    <dimen name="margin_top_point">8dip</dimen>
+    <dimen name="image_size_in_recycleview_for_quanan">60dp</dimen>
+    <dimen name="height_logo_header">30dip</dimen>
+    <dimen name="width_logo_header">30dip</dimen>
+    <dimen name="margin_right_plus_menu">10dip</dimen>
+    <dimen name="tab_height">45.0dip</dimen>
+    <dimen name="text_size_title">14.0sp</dimen>
+    <dimen name="text_size_small">12.0sp</dimen>
+    <dimen name="text_size_more_item">13.0sp</dimen>
+    <dimen name="text_size_big_title">16.0sp</dimen>
+    <dimen name="device_width">1450px</dimen>
+    <dimen name="text_size_point_for_bigger_800px">9dp</dimen>
+    <dimen name="text_size_of_login_layout">20dip</dimen>
+    <dimen name="dimen_padding_snippet">5dip</dimen>
+    <dimen name="imageslider_height">120dp</dimen>
+</resources>

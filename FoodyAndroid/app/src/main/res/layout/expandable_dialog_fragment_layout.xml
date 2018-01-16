@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorofbackgroundfragment">
+    <RelativeLayout
+        android:id="@+id/navbar"
+        android:layout_alignParentTop="true"
+        android:background="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Loại hình"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/navbar"
+        android:id="@+id/search_box"
+        android:background="@color/another_gray"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_margin="10dip"
+            android:background="@drawable/border_linear_searchbox_"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_search" />
+
+            </FrameLayout>
+            <LinearLayout
+                android:layout_margin="5dip"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:hint="Tìm kiếm"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ExpandableListView
+        android:layout_below="@+id/search_box"
+        android:scrollbars="vertical"
+        android:layout_weight="1"
+        android:background="@color/colorofbackgroundfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/expandlistviewdiadiem">
+    </ExpandableListView>
+    <LinearLayout
+        android:id="@+id/group_btn"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <Button
+            android:background="@color/white"
+            android:textColor="#8B8B8B"
+            android:text="Hủy"
+            android:id="@+id/dismiss_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:textColor="@color/white"
+            android:background="#0E6727"
+            android:layout_weight="1"
+            android:id="@+id/ok_btn"
+            android:text="Xong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

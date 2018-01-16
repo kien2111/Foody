@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+            <Button
+                android:id="@+id/icon_foody_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/foodyicon_shape_button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:background="@drawable/buttonintoolbar"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:id="@+id/OdauButton"
+                android:text="Ở đâu"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:background="@drawable/buttonintoolbarright"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:id="@+id/AngiButton"
+                android:text="Ăn gì"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <Button
+                android:id="@+id/plusButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/plus_shape_button"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

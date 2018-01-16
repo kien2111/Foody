@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_gridview_barcode" />
+        <TextView
+            android:textColor="@color/colorNavbar"
+            android:text="Quét Coupon"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_bottom_dialog_fragment_camera" />
+        <TextView
+            android:textColor="@color/black"
+            android:text="Đăng ảnh"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_bottom_dialog_fragment" />
+        <TextView
+            android:textColor="@color/black"
+            android:text="Check in"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_bottom_dialog_fragment_review" />
+        <TextView
+            android:textColor="@color/black"
+            android:text="Viết bình luận"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tao_dia_diem">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_bottom_dialog_fragment_location" />
+        <TextView
+            android:textColor="@color/black"
+            android:text="Tạo địa điểm"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

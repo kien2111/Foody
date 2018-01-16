@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/fragment_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/main_menu_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:contentInsetEnd="0dp"
+    android:contentInsetStart="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:background="#cc1a00"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <Button
+        android:layout_gravity="left"
+        android:id="@+id/icon_foody_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/foodyicon_shape_button"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonintoolbar"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:id="@+id/OdauButton"
+        android:text="Ở đâu"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonintoolbarright"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:id="@+id/AngiButton"
+        android:text="Ăn gì"/>
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/plusButton"
+        android:layout_marginRight="10dip"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/plus_shape_button"/>
+</android.support.v7.widget.Toolbar>
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_menu_toolbar"
+        android:id="@+id/viewPager">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

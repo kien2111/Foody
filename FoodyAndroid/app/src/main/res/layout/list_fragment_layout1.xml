@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.myListFragment">
+    <ScrollView
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:fillViewport="true">
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#c2c2c2"
+            android:dividerHeight="2px"
+            android:headerDividersEnabled="true"
+            android:footerDividersEnabled="true">
+        </ListView>
+    </ScrollView>
+    <Button
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:id="@+id/btnHuy1"
+        android:text="Hủy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

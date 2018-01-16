@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorNavbar">#cc1a00</color>
+    <color name="white">#ffffff</color>
+    <color name="colorofbackgroundfragment">#efefef</color>
+    <color name="backgroundoftab">#FFFFFF</color>
+    <color name="tabunselectedtextcolor">#646464</color>
+    <color name="colorhome">#efefef</color>
+    <color name="colorcollection">#27cd3a</color>
+    <color name="colorsearch">#20989c</color>
+    <color name="colornotification">#ded46a</color>
+    <color name="coloruser">#9f2a8d</color>
+    <color name="darkgray">#aaaaaa</color>
+    <color name="checkcolor">#35b4de</color>
+    <color name="black">#000000</color>
+    <color name="orange">#F37934</color>
+    <color name="dark_grey">#000000</color>
+    <color name="dark_blue">#0000FF</color>
+    <color name="normal_text_color">#868686</color>
+    <color name="color_bottom">#efffffff</color>
+    <color name="line_gray">#ffdddddd</color>
+    <color name="mytransparent">#f2ffffff</color>
+    <color name="transparentforbtn">#2cffffff</color>
+    <color name="home_filter_text_color">#ff666666</color>
+    <color name="another_gray">#ffedebeb</color>
+    <color name="blur">#34ffffff</color>
+    <color name="facebook_color">#4963A4</color>
+    <color name="twitter_color">#33CCFF</color>
+    <color name="yahoo_color">#400090</color>
+    <color name="google_color">#EA4235</color>
+    <color name="green_of_coupon">#78D577</color>
+
+</resources>

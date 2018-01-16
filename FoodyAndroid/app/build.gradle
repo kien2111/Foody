@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.example.nhox_.foody"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        disable 'RestrictedApi'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/ksoap2-android-2.5.2.jar')
+    compile 'com.android.support:multidex:1.0.2'
+    compile 'com.android.support:support-v4:25.4.0'
+    compile 'com.android.support:recyclerview-v7:25.4.0'
+    compile 'com.github.ittianyu:BottomNavigationViewEx:1.1.6'
+    compile 'com.android.support:cardview-v7:25.4.0'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:design:25.4.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    // https://mvnrepository.com/artifact/cz.msebera.android/httpclient
+    compile group: 'cz.msebera.android', name: 'httpclient', version: '4.4.1.1'
+// https://mvnrepository.com/artifact/com.google.code.gson/gson
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.0'
+
+    compile 'jp.wasabeef:blurry:2.1.1'
+    compile 'com.google.android.gms:play-services:10.2.0'
+
+    //test
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test:runner:1.0.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
